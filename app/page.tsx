@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = 'force-dynamic';
+
 import { navItems } from "@/data";
 
 import Hero from "@/components/Hero";

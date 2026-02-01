@@ -1,7 +1,7 @@
 <div align="center">
   <br />
-    <a href="https://youtu.be/FTH6Dn3AyIQ" target="_blank">
-      <img src="https://github.com/adrianhajdin/portfolio/assets/151519281/c6ca3c03-6cb7-4f67-a9b9-a73da5bfa0d8" alt="Project Banner">
+    <a href="https://github.com/gigivaldez128" target="_blank">
+      <img src="https://github.com/gigivaldez128.png" width="120" height="120" style="border-radius: 50%;" alt="Gigi Valdez" />
     </a>
   <br />
 
@@ -12,10 +12,9 @@
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
   </div>
 
-  <h3 align="center">A Modern Next.js Portfolio</h3>
+  <h3 align="center">Gigi C. Valdez - Personal Portfolio</h3>
+  <p align="center">Full Stack Developer | Front-end & Back-end Specialist</p>
 
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
     </div>
 </div>
 
@@ -29,21 +28,22 @@
 6. 🔗 [Assets](#links)
 7. 🚀 [More](#more)
 
-## 🚨 Tutorial
+## 👋 About Me
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
+I'm **Gigi C. Valdez**, a Full Stack Developer with expertise in Front-end and Back-end development. This portfolio showcases my skills, projects, and experience in modern web development.
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
-
-<a href="https://youtu.be/FTH6Dn3AyIQ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+**Connect with me:**
+- 🌐 Portfolio: [View Live](https://your-portfolio-url.vercel.app) *(Update after deployment)*
+- 💼 LinkedIn: [gigi-valdez-6547a5359](https://www.linkedin.com/in/gigi-valdez-6547a5359/)
+- 🐙 GitHub: [@gigivaldez128](https://github.com/gigivaldez128)
+- 📷 Instagram: [@gigivaldez29](https://www.instagram.com/gigivaldez29/)
+- 📧 Email: gigivaldez128@gmail.com
 
 ## <a name="introduction">🤖 Introduction</a>
 
 Built with Next.js for handling the user interface, Three.js for rendering 3D elements, Framer motion for beautiful animations, and styled with TailwindCSS, this portfolio demonstrates the developer's skills in a unique manner that creates a lasting impact.
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **34k+** members. It's a place where people help each other out.
-
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+This portfolio demonstrates modern web development practices, featuring responsive design, smooth animations, and interactive 3D elements.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -85,8 +85,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/portfolio.git
-cd portfolio
+git clone https://github.com/gigivaldez128/personal-portfolio.git
+cd personal-portfolio
 ```
 
 **Installation**
@@ -112,7 +112,9 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 ```typescript
 export const navItems = [
+  { name: "Home", link: "#" },
   { name: "About", link: "#about" },
+  { name: "Skills", link: "#skills" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
@@ -286,29 +288,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Front-End Development",
+    desc: "Developed responsive and interactive user interfaces using React.js.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Back-End Development",
+    desc: "Integrated frontend applications with backend services and APIs.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Documentation & Project Management",
+    desc: "Created technical documentation for system features, workflows, and development processes.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Mobile Application Development",
+    desc: "Handled the full development cycle from UI design to deployment on app stores.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -318,14 +320,26 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    name: "GitHub",
+    link: "https://github.com/gigivaldez128",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/link.svg",
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/gigi-valdez-6547a5359/",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/insta.svg",
+    name: "Instagram",
+    link: "https://www.instagram.com/gigivaldez29/",
+  },
+  {
+    id: 4,
+    img: "/twit.svg",
+    name: "Facebook",
+    link: "https://www.facebook.com/valdez.gigi",
   },
 ];
 ```
@@ -661,11 +675,30 @@ style={{
 
 Assets used in the project can be found [here](https://drive.google.com/file/d/1ZmtiMilUYTp1wkiXWMFX6AUk-msE981-/view?usp=sharing)
 
-## <a name="more">🚀 More</a>
-**Advance your skills with Next.js Pro Course**
+## <a name="more">🚀 Deployment</a>
 
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning experience. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
+This portfolio is deployed on Vercel for optimal performance and global CDN distribution.
 
-<a href="https://www.jsmastery.pro/ultimate-next-course" target="_blank">
-<img src="https://i.ibb.co/804sPK6/Image-720.png" alt="Project Banner">
-</a>
+**Deploy your own:**
+1. Fork this repository
+2. Connect your GitHub account to [Vercel](https://vercel.com)
+3. Import the repository
+4. Deploy with one click!
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🙏 Acknowledgments
+
+- Built with [Next.js](https://nextjs.org/)
+- Styled with [Tailwind CSS](https://tailwindcss.com/)
+- Animations powered by [Framer Motion](https://www.framer.com/motion/)
+- 3D elements using [Three.js](https://threejs.org/)
+
+---
+
+<div align="center">
+  <p>Made with ❤️ by <a href="https://github.com/gigivaldez128">Gigi C. Valdez</a></p>
+  <p>© 2024 All rights reserved</p>
+</div>
