@@ -1,6 +1,11 @@
 import type { Config } from "tailwindcss";
 
-const svgToDataUri = require("mini-svg-data-uri");
+// Node.js compatible SVG to data URI converter
+const svgToDataUri = (svg: string): string => {
+  // Encode SVG for data URI (works in both Node.js and browser)
+  const encoded = encodeURIComponent(svg.trim());
+  return `data:image/svg+xml,${encoded}`;
+};
 
 const colors = require("tailwindcss/colors");
 const {
