@@ -1,14 +1,11 @@
 import { withSentryConfig } from '@sentry/nextjs';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'standalone',
     experimental: {
         serverComponentsExternalPackages: ['mini-svg-data-uri'],
     },
-    // Disable static optimization for pages that use client-side only features
-    generateBuildId: async () => {
-        return 'build-' + Date.now();
-    },
+    // Skip static optimization - use runtime rendering
+    skipTrailingSlashRedirect: true,
 };
 
 export default withSentryConfig(nextConfig, {
